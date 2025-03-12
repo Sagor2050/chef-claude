@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.header-name{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  box-shadow: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+  padding-right: 10px;
+}
+
+main{
+  padding: 30px 30px;
+}
+
+.add-ingredient-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-ingredient-form > input{
+
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 10px 14px;
+  flex-grow: 1;
+  font-size: 20px; 
+  line-height: 1.5
+}
+
+.add-ingredient-form > button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #0f120f; /* Green color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-ingredient-form > button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+.add-ingredient-form > button:active {
+  background-color: #388e3c; /* Darker green when clicked */
+}
+
+.recipy-section{
+  display : flex;
+  justify-content: center;
+  background-color: rgb(0, 251, 255);
+  flex-direction: left;
+  margin-bottom: 20px;
+  box-shadow: #0f120f 10px 10px;
+  bl
+}
